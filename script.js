@@ -81,7 +81,7 @@ document.querySelector('form').addEventListener('submit', function(formEvent) {
           caratula.src = track.album.images[1].url;
           
         info.innerHTML = 'Energy: ' + afeature.energy*100 + '% <br>'
-    + 'Album: ' + track.album + '%';
+    + 'Album: ' + track.albumr + '%';
            
           result.style.display = 'block';
           
